@@ -1,0 +1,49 @@
+<html>
+      <head>
+            <title>Galerie Khassida PDF</title>
+                <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+                <script src="jquery.fancybox.min.js"> </script>
+                <link href="jquery.fancybox.min.css" rel="stylesheet">
+                <style>
+                  img {
+                    width: 20%;
+                      }
+                </style>
+
+                <script>
+                  $(document).ready(function () {
+
+                    $ ('[data-fancybox]').francybox ( {
+                      type: 'iframe',
+                      ifram: {
+                          css: {
+                            width: '400px'
+                               }
+                            }
+                          }
+
+                        )
+
+                  });
+                </script>
+      </head>
+      <body>
+        <h1 align="center"> Khassida PDF </h>
+          <p> </p>
+            <a data-fancybox data-type="iframe" data-src="Jaalibatou.pdf" data-caption="Jaalibatou marakhib" href="javascript:;">
+                 <img src ="couv-jaalibatou.png"></img>
+            </a>
+            <a data-fancybox data-type="iframe" data-src="Bouchra.pdf" data-caption="Bouchra Laana" href="javascript:;">
+                 <img src ="couv-bouchra.png"></img>
+            </a>
+            <a data-fancybox data-type="iframe" data-src="Dol1.pdf" data-caption="Dol " href="javascript:;">
+                 <img src ="couv-dol1.png"></img>
+            </a>
+            <a data-fancybox data-type="iframe" data-src="Diawartou.pdf" data-caption="Diawartou" href="javascript:;">
+                 <img src ="couv-diawartou.png"></img>
+            </a>
+            <h6></h6>
+
+      </body>
+
+</html>

@@ -1,0 +1,1166 @@
+body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 20px;
+    color: #000000;
+}
+
+span h3 {
+  margin: 10px 0 30px 0;
+  letter-spacing: 10px;
+  font-size: 20px;
+  color: #000000;
+}
+
+h2 {
+  color: #080001;
+  position:relative;
+  z-index:1000;
+}
+
+.block_av li.art_av {
+	position: relative;
+	display: block;
+	width: 25%;
+	height: auto;
+	float: left;
+}
+
+@media (max-width: 767px) {
+.block_av li.art_av {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: auto;
+}
+}
+
+.block_av li.art_av>img {
+	width: 100%;
+	height: auto;
+
+	filter: brightness(50%);
+        -webkit-filter: brightness(50%);
+        -moz-filter: brightness(50%);
+        -o-filter: brightness(50%);
+        -ms-filter: brightness(50%);
+}
+
+.block_av li.art_av h2 {
+  position:relative;
+  z-index:1000;
+}
+
+.block_av li.art_av>img:hover {
+	filter: brightness(75%);
+        -webkit-filter: brightness(75%);
+        -moz-filter: brightness(75%);
+        -o-filter: brightness(75%);
+        -ms-filter: brightness(75%);
+}
+.container {
+    padding: 80px 120px;
+}
+
+.jumbotron {
+    background-color: #424935;
+    color: #fff;
+    padding: 65px 10px;
+    height: 10px;
+    font-family: Montserrat, sans-serif;
+}
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+}
+.person:hover {
+    border-color: #f1f1f1;
+}
+.carousel-inner img {
+    margin-bottom: 0px;
+    padding: 100px 0px;
+    width: 100%; /* Set width to 100% */
+    height: 100%;
+    margin: auto;
+}
+.carousel-inner p {
+    margin-bottom: 0px;
+    padding: 100px 0px;
+    width: 100%; /* Set width to 100% */
+    height: 100%;
+    margin: auto;
+}
+.carousel-inner h2 {
+    margin-bottom: 0px;
+    padding: 50px 0px;
+    width: 100%; /* Set width to 100% */
+    height: 100%;
+    margin: auto;
+}
+.carousel-caption h3 {
+    color: #000000 !important;
+}
+.galerie-pdf {
+  width:60%;
+}
+
+.img-responsive img {
+  width: 100%;
+  height: auto;
+  display:block;
+}
+
+ .description h1 {
+    border: 5px;
+    color: #000000;
+ }
+
+ .description {
+   border-radius: 10px 5px 10px 5px;
+   border: 5px;
+   color: #000000;
+ }
+
+@media (max-width: 600px) {
+  .carousel-caption {
+  }
+}
+.bg-1 {
+    background: #424935;
+    color: #000000;
+}
+.bg-2 {
+    background: #f1f1f1f1;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+    position: center;
+}
+.bg-1 h3 {color: #000000;}
+.bg-1 p {font-style: italic;}
+.bg-2 h3 {color: #000000;}
+.bg-2 p {font-style: italic;}
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #eee;
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.thumbnail p {
+    margin-top: 15px;
+    color: #555;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #424935;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+.btn:hover, .btn:focus {
+    border: 1px solid #424935;
+    background-color: #fff;
+    color: #000;
+}
+.panel-footer .btn:hover {
+    border: 1px solid #424935;
+    background-color: #fff !important;
+    color: #03A32B;
+  }
+.modal-header, h4, .close {
+    background-color: #424935;
+    color: #fff !important;
+    text-align: center;
+    font-size: 16px;
+}
+.modal-header, .modal-body {
+    padding: 40px 50px;
+}
+.nav-tabs li a {
+    color: #777;
+}
+#googleMap {
+    width: 100%;
+    height: 400px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #424935;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+}
+.dropdown-menu li a {
+    color: #000 !important;
+}
+.dropdown-menu li a:hover {
+    background-color: !important;
+}
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    width: 100%;
+
+}
+footer a {
+    color: #424935;
+}
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+.form-control {
+    border-radius: 0;
+}
+textarea {
+    resize: none;
+}
+
+.customNavigation
+  a {
+    position: absolute
+    top: 35
+    left: 0
+    right: auto
+    padding: 30px
+    float: left
+    font-size: 3em
+    cursor: pointer
+    z-index: 1
+}
+    &.next {
+      left: auto
+      right: 0
+      }
+
+    @media (min-width: 320px) {
+      top: 20%;
+}
+    @media (min-width: 480px) {
+      top: 25%
+}
+    @media (min-width: 768px) {
+      top: 30%
+}
+    @media (min-width: 992px) {
+      top: 35%
+}
+#sync1 .item {
+  background: #0c83e7
+  margin: 5px
+  color: #FFF
+  -webkit-border-radius: 3px
+  -moz-border-radius: 3px
+  border-radius: 3px
+  text-align: center
+}
+#sync2
+  .owl-item
+    .item {
+      background: #333
+      margin: 5px
+      color: #FFF
+      -webkit-border-radius: 3px
+      -moz-border-radius: 3px
+      border-radius: 3px
+      text-align: center
+      cursor: pointer
+      img
+        opacity: 0.5
+}
+#sync3 .item {
+  background: #0c83e7
+  margin: 5px
+  color: #FFF
+  -webkit-border-radius: 3px
+  -moz-border-radius: 3px
+  border-radius: 3px
+  text-align: center
+}
+#sync4
+  .owl-item
+    .item {
+      background: #333
+      margin: 5px
+      color: #FFF
+      -webkit-border-radius: 3px
+      -moz-border-radius: 3px
+      border-radius: 3px
+      text-align: center
+      cursor: pointer
+        opacity: 0.5
+}
+    &.synced {
+      .item
+          opacity: 1
+          }
+
+.modal.in .modal-dialog {
+  border-radius: 0px
+}
+  .modal-content {
+    border-radius: 0px
+}
+    .modal-header {
+      border-radius: 0px
+      text-align: center
+}
+
+.news-events-page--list-page {
+  text-align: center
+}
+@media (min-width: 768px) {
+  .modal-dialog
+    width: 980px
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 50px;
+}
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 50px;
+}
+
+/* Clearfix (clear floats) */
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 50px;
+}
+
+
+
+
+
+.desc-evenement {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.desc-evenement h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row3 {
+    margin: 4px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row3,
+.row3 > .column3 {
+    padding: 4px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column3 {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row3:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content3 {
+    background-color: white;
+    padding: 10px;
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column3 {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column3 {
+        width: 100%;
+    }
+}
+
+
+
+.collapsible {
+    background-color: #424935;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #f0f2ed;
+    color: #0a0a0a;
+}
+
+.content2 {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.collapsible1 {
+    background-color: #424935;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active1, .collapsible1:hover {
+    background-color: #f0f2ed;
+    color: #0a0a0a;
+}
+
+.content1 {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+
+.columns0 {
+    float: left;
+    width: 25%;
+    padding: 8px;
+}
+
+.columns01 {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+
+/* Style the list */
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+
+/* List items */
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.columns00 {
+    float: left;
+    width: 25%;
+    padding: 8px;
+}
+
+.columns02 {
+    float: left;
+    width: 50%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: #424935;
+    color: white;
+    font-size: 25px;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button00 {
+    background-color: #424935;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns00 {
+        width: 100%;
+    }
+}
+
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+
+/* Smartphone */
+
+/* The device with borders */
+.smartphone {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
+
+/* The horizontal line on the top of the device */
+.smartphone:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+}
+
+/* The circle on the bottom of the device */
+.smartphone:after {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 50%;
+}
+
+/* The screen (or content) of the device */
+.smartphone .content {
+  width: 360px;
+  height: 640px;
+  background: white;
+}
+
+/* Actualites */
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev1, .next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "prev button" to the left */
+.prev1 {
+  position: absolute;
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Position the "next button" to the right */
+.next1 {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev11 {
+    left: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next11 {
+    right: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev1:hover, .next1:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #f0f2ed;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+/* Create four equal columns that floats next to each other */
+.column04 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row04:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column04  {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column04  {
+        width: 100%;
+    }
+}
+
+
+/* Float four columns side by side */
+.column05 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row05 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row05:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column05 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion6 {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active6, .accordion6:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.accordion6:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active6:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+/* Slideshow container */
+.slideshow01-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active01 {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade01 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.mySlides01 {display: none;}
+img {vertical-align: middle;}
+
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container4 {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides4 {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #424935;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column44 {
+  float: left;
+  width: 16.66%;
+  height: 2px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.container5 img {
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+
+.container5 {
+    position: relative;
+    font-family: Arial;
+    max-width: 1500px;
+    max-height: 600px;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+.container6 p {
+  margxin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.container6 {
+  margin-bottom: 0px;
+  margin-top: 60px;
+  padding-top: 50px;
+  position: relative;
+  max-width: 1000px;
+  max-height: 700px;
+  margin: 0 auto;
+}
+
+.container12 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+  max-width: 1000px;
+  max-height: 700px;
+  margin: 10px;
+  position: relative;
+}
+.container6 img {vertical-align: middle;}
+
+.container6 .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 10px;
+}
+
+box-sizing: border-box;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+.column11 {
+float: left;
+width: 25%;
+margin-bottom: 16px;
+padding: 0 8px;
+}
+
+.column12 {
+float: left;
+width: 32%;
+margin-bottom: 16px;
+padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+.column11 {
+  width: 100%;
+  display: block;
+}
+}
+
+.card2 {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container11 {
+padding: 0 16px;
+}
+
+.container11::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.title11 {
+color: grey;
+}
+
+.button11 {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+}
+
+.button11:hover {
+background-color: #555;
+}
